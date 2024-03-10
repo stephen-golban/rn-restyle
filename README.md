@@ -1,10 +1,12 @@
 **Build a consistent, themed UI in minutes.**
 
 This library is basically the same as [@shopify/restyle](https://shopify.github.io/restyle/), but now your props can be **number/string/defined-in-theme or all of them**, and with a lot of shortened attributes.
+<br/>
 
-<div align="center">
-    ![RestyleTheme 2024-03-10 23_22_51](https://github.com/stephen-golban/rn-restyle/blob/main/example/assets/rn-restyle.gif)
+<div align='center'>
+  <img src ="./example/assets/rn-restyle.gif" width="250" />
 </div>
+<br/>
 
 ## Installation
 
