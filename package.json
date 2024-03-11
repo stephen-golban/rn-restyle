@@ -1,6 +1,6 @@
 {
   "name": "rn-restyle",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A system for building constraint-based UI components easier, faster",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
