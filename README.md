@@ -43,9 +43,9 @@ export default function App() {
     <ThemeProvider theme={selectedTheme}>
       <Box bg="background" fill>
         <SafeAreaView fill>
-          <Box flex={1} px="m" g={8}>
+          <Box fill px="m" g={8} mt={5}>
             <Text variant="header">Welcome</Text>
-            <Box bg="cardPrimaryBackground" p="m" br={10}>
+            <Box bg="cardPrimaryBackground" p={16} br={10}>
               <Text variant="body">
                 This is a simple example displaying how to use Restyle
               </Text>
@@ -56,14 +56,7 @@ export default function App() {
                 see how it changes this screen
               </Text>
             </Box>
-            <Box
-              bg="cardPrimaryBackground"
-              row
-              between
-              align="center"
-              p="m"
-              br={10}
-            >
+            <Box bg="cardPrimaryBackground" row between align="center" p={16} br={10}>
               <Text variant="body">Toggle dark mode</Text>
               <Switch
                 value={darkMode}
