@@ -1,0 +1,47 @@
+{
+  "name": "rn-restyle",
+  "version": "1.0.1",
+  "description": "A powerful, type-safe styling library for React Native with robust theming, responsive design, and attribute-based styling",
+  "author": {
+    "name": "Stephen"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "styling",
+    "theming",
+    "responsive",
+    "typescript",
+    "design-system"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stephen-golban/rn-restyle.git"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "clean": "rm -rf dist",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run clean && npm run build",
+    "test": "echo \"No tests yet\" && exit 0",
+    "example": "bun run examples/index.ts",
+    "build:all": "npm run clean && npm run lint -- --skipLibCheck && npm run build"
+  },
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-native": "^0.78.2",
+    "typescript": "^5"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/react": "^19.1.0"
+  }
+}
